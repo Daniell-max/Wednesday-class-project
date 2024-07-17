@@ -1,0 +1,48 @@
+body{
+    background-color: #cc1758;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    border: 8px solid #ffce6d;
+    background-color: #ffc148;
+    display: inline-block;
+    padding:20px 40px;
+    border-radius: 20px;
+}
+.input{
+    background-color: #ffce6d;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.input input{
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.users{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.users .user:nth-child(3){
+    background-color: #ff9548;
+    border-radius: 10px;
+    padding: 5px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user img{
+    width:50px;
+    height: 55px;
+    border-radius: 100%;
+}
